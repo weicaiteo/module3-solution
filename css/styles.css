@@ -1,15 +1,13 @@
+* {
+
+}
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color: #000;
+  background-color: #FFF;
   font-family: 'Oxygen', sans-serif;
 }
-}
-h1 {
-color:#0000FF;
-text-align:left;
-background-color:#B3B3B3;
-}
+
 
 h2 {
 color:#000;
@@ -25,11 +23,31 @@ text-align:center;
 
 p {
 display:inline-block;
-padding:30px;
-overflow: auto;
-height:1000px:
+padding:50px;
+height:100px:
+overflow:scrolled;
+}
+.content1{
+height:100px:
+overflow:scrolled;
+}
+#t1 {
+color:#000;
+background-color:#FFF;
+}
+#content {
+color:#000;
+background-color:#B3B3B3;
+}
+.content2 h3 {
+color:#000;
+background-color:#B3B3B3;
 }
 
+.content3 h3 {
+color:#000;
+background-color:#B3B3B3;
+}
 /** HEADER **/
 #header-nav {
   background-color: #f6b319;
@@ -56,8 +74,11 @@ height:1000px:
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   line-height: .75;
+  vertical-align:bottom;
+  
+  
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -70,6 +91,7 @@ height:1000px:
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
+  
 }
 
 #nav-list {
@@ -78,12 +100,15 @@ height:1000px:
 #nav-list a {
   color: #951C49;
   text-align: center;
+  background-color:#FFF;
+  border:2px solid black;
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
 #nav-list a span {
   font-size: 1.8em;
+  border: 1px solid #61122f;
 }
 
 #phone {
@@ -100,11 +125,12 @@ height:1000px:
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+ border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+  
 }
 /* END HEADER */
 
@@ -143,8 +169,8 @@ height:1000px:
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
+  background-color: #FFF;
+  color: #000;
   opacity: .8;
 }
 
@@ -155,7 +181,7 @@ height:1000px:
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
-    width:80%;
+    width:100%;
   }
 }
 
@@ -175,7 +201,7 @@ height:1000px:
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
-    width:80%;
+    width:100%;
   }
   /* End Home Page */
 }
@@ -263,5 +289,4 @@ height:1000px:
     width: 280px;
     margin: 0 auto 15px;
   }
-}
 
