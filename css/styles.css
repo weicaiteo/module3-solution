@@ -34,10 +34,20 @@ overflow:scrolled;
 #t1 {
 color:#000;
 background-color:#FFF;
+
 }
 #content {
 color:#000;
 background-color:#B3B3B3;
+
+
+
+}
+
+.content1 h3 {
+color:#000;
+background-color:#B3B3B3;
+
 }
 .content2 h3 {
 color:#000;
